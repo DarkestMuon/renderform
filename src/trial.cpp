@@ -1,5 +1,4 @@
-#include "../include/renderform/renderform.h"
-
+#include "/content/Renderform/include/renderform/renderform.hpp"
 int main() {
   Renderform::Formula output = Renderform::parseImage(input_file);
   // Print to stdout
