@@ -22,6 +22,7 @@ set(SOURCE_FILES
 	modules/character.cpp
 	classifiers/symbols.cpp
 	classifiers/knn.cpp
+  trial.cpp
 )
 
 add_executable(renderform ${HEADER_FILES} ${SOURCE_FILES})
